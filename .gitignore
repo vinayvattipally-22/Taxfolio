@@ -43,8 +43,20 @@ test_data/
 tools/
 scripts/
 
+# Development docs and scripts — kept locally in docs/dev/, never committed
+# (plans, instructions, design docs, prompt templates, manual scripts that call OpenAI)
+docs/dev/
+/plans.md
+/instructions.md
+/APP_OVERVIEW.md
+/ARCHITECTURE.md
+*.docx
+*.xlsx
+backend/test_extraction_all.py
+backend/test_rag_comparison.py
+
 # Uploaded user files — never commit
 backend/uploads/
 
 # Claude Code settings
-.claude/
+.claude/settings.local.json
