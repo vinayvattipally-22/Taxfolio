@@ -43,9 +43,10 @@ test_data/
 tools/
 scripts/
 
-# Development docs and scripts — kept locally in docs/dev/, never committed
+# Development docs and scripts — kept locally in docs/dev/ and docs/summaries/, never committed
 # (plans, instructions, design docs, prompt templates, manual scripts that call OpenAI)
 docs/dev/
+docs/summaries/
 /plans.md
 /instructions.md
 /APP_OVERVIEW.md
